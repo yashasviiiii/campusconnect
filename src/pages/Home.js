@@ -11,10 +11,14 @@ function Home() {
 
   return (
     <div className="home-container">
-      {/* Hero */}
+      {/* Logo Section */}
       <div className="home-hero">
-        <h1>CampusConnect</h1>
-        <p>One platform for all your campus needs — from doubts to events, we’ve got you covered.</p>
+        <img
+          src="/campuslogo.png"
+          alt="CampusConnect Logo"
+          className="logo-large"
+        />
+        <p className="slogan">Where campus clicks.🌐</p>
       </div>
 
       {/* Features */}
@@ -37,3 +41,4 @@ function Home() {
 }
 
 export default Home;
+

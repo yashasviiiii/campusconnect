@@ -84,3 +84,39 @@ body {
 .cta-button button:hover {
   background-color: #303f9f;
 }
+.logo-cloud {
+  background: white;
+  border-radius: 50%;
+  padding: 20px;
+  display: inline-block;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  animation: float 3s ease-in-out infinite;
+}
+
+.logo-image {
+  width: 120px;
+  height: auto;
+}
+
+/* Optional floating cloud animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+.logo-large {
+  width: 400px;       /* Increased from 300px */
+  max-width: 90%;     /* Still responsive */
+  height: auto;
+  display: block;
+  margin: 0 auto 30px auto;
+}
+
+
+
+.slogan {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+}

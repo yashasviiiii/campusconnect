@@ -18,7 +18,7 @@ function Home() {
           alt="CampusConnect Logo"
           className="logo-large"
         />
-        <p className="slogan">Where campus clicks.🌐</p>
+        <p className="slogan">Your campus, connected.</p>
       </div>
 
       {/* Features */}

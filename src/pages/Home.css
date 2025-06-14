@@ -83,7 +83,7 @@ body {
 
 .cta-button button:hover {
   background-color: #303f9f;
-}
+}  
 .logo-cloud {
   background: white;
   border-radius: 50%;
@@ -114,9 +114,11 @@ body {
 }
 
 
-
 .slogan {
   font-size: 1.2rem;
   color: #666;
   text-align: center;
 }
+
+
+
